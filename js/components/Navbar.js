@@ -1,21 +1,17 @@
-<!doctype html>
-<html class="no-js" lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Gaming with Foundation</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.min.css">
+import React from 'react';
 
-<!-- add motion to the slider -->
-<link rel="stylesheet" href="./public/css/main.css">
+import jQuery from 'jquery';
+import Lazy from 'lazyload/jquery.lazyload.min.js';
+import Foundation from 'foundation-sites/dist/foundation.min.js';
 
-</head>
+export default class extends React.Component {
+  render() {
 
-<body>
+    return (
 
-<div id="app"></div>
+<div>    	
 
-<!-- <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+<div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
 <button class="menu-icon" type="button" data-toggle></button>
 <div class="title-bar-title">Menu</div>
 </div>
@@ -46,106 +42,106 @@
 <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
 <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
 <li class="orbit-slide is-active">
-<img src="./img/hot.jpg">
+<img src="./img/hot.jpg" />
 </li>
 <li class="orbit-slide">
-<img src="./img/laura.jpg">
+<img src="./img/laura.jpg" />
 </li>
 <li class="orbit-slide">
-<img src="./img/tran.jpg">
+<img src="./img/tran.jpg" />
 </li>
 <li class="orbit-slide">
-<img src="./img/arrow.png">
+<img src="./img/arrow.png" />
 </li>
 </ul>
 </div>
 
 <div class="row column text-center">
 <h2>Our Newest Products</h2>
-<hr>
+<hr />
 </div>
 <div class="row small-up-2 large-up-4">
 <div class="column">
-<img class="thumbnail lazy" data-original="./img/uncharted.png">
+<img class="thumbnail lazy" data-original="./img/uncharted.png" />
 <h5>Uncharted 4</h5>
 <p>$59</p>
 <a href="#" class="button expanded">Buy</a>
 </div>
 <div class="column">
-<img class="thumbnail lazy" data-original="./img/metal.png">
+<img class="thumbnail lazy" data-original="./img/metal.png" /> 
 <h5>Metal Gear Solid</h5>
 <p>$59</p>
 <a href="#" class="button expanded">Buy</a>
 </div>
 <div class="column">
-<img class="thumbnail lazy" data-original="./img/sky.png">
+<img class="thumbnail lazy" data-original="./img/sky.png" />
 <h5>No Man's Sky</h5>
 <p>$59</p>
 <a href="#" class="button expanded">Buy</a>
 </div>
 <div class="column">
-<img class="thumbnail lazy" data-original="./img/realm.png">
+<img class="thumbnail lazy" data-original="./img/realm.png" />
 <h5>A Realm Reborn</h5>
 <p>$59</p>
 <a href="#" class="button expanded">Buy</a>
 </div>
 </div>
-<hr>
+<hr />
 <div class="row column">
 <div class="callout primary">
 <h3>The Callout Primary section</h3>
 </div>
 </div>
-<hr>
+<hr />
 <div class="row column text-center">
 <h2>Other Neat Games</h2>
-<hr>
+<hr />
 </div>
 <div class="row small-up-2 medium-up-3 large-up-6">
 <div class="column">
-<img class="thumbnail lazy" data-original="./img/chiv.png">
+<img class="thumbnail lazy" data-original="./img/chiv.png" />
 <h5>Chivalry</h5>
 <p>$59</p>
 <a href="#" class="button small expanded hollow">Buy</a>
 </div>
 <div class="column">
-<img class="thumbnail lazy" data-original="./img/dead.png">
+<img class="thumbnail lazy" data-original="./img/dead.png" />
 <h5>Dead Island 2</h5>
 <p>$59</p>
 <a href="#" class="button small expanded hollow">Buy</a>
 </div>
 <div class="column">
-<img class="thumbnail lazy" data-original="./img/transformers.png">
+<img class="thumbnail lazy" data-original="./img/transformers.png" />
 <h5>Transformers</h5>
 <p>$59</p>
 <a href="#" class="button small expanded hollow">Buy</a>
 </div>
 <div class="column">
-<img class="thumbnail lazy" data-original="./img/dis.png">
+<img class="thumbnail lazy" data-original="./img/dis.png" />
 <h5>Disgaea 5</h5>
 <p>$59</p>
 <a href="#" class="button small expanded hollow">Buy</a>
 </div>
 <div class="column">
-<img class="thumbnail lazy" data-original="./img/storm.png">
+<img class="thumbnail lazy" data-original="./img/storm.png" />
 <h5>Naruto Storm 4</h5>
 <p>$59</p>
 <a href="#" class="button small expanded hollow">Buy</a>
 </div>
 <div class="column">
-<img class="thumbnail lazy" data-original="./img/touk.png">
+<img class="thumbnail lazy" data-original="./img/touk.png" />
 <h5>Toukiden Kiwami</h5>
 <p>$59</p>
 <a href="#" class="button small expanded hollow">Buy</a>
 </div>
 </div>
-<hr>
+<hr />
 <div class="row">
 <div class="medium-4 columns">
 <h4>Hardware</h4>
 <div class="media-object">
 <div class="media-object-section">
-<img class="thumbnail lazy" data-original="./img/ps4b.png">
+<img class="thumbnail lazy" data-original="./img/ps4b.png" />
 </div>
 <div class="media-object-section">
 <h5>PS4</h5>
@@ -154,7 +150,7 @@
 </div>
 <div class="media-object">
 <div class="media-object-section">
-<img class="thumbnail lazy" data-original="./img/ps4w.png">
+<img class="thumbnail lazy" data-original="./img/ps4w.png" />
 </div>
 <div class="media-object-section">
 <h5>PS4/White</h5>
@@ -163,7 +159,7 @@
 </div>
 <div class="media-object">
 <div class="media-object-section">
-<img class="thumbnail lazy" data-original="./img/psvr.png">
+<img class="thumbnail lazy" data-original="./img/psvr.png" />
 </div>
 <div class="media-object-section">
 <h5>Playstation VR</h5>
@@ -175,7 +171,7 @@
 <h4>Controllers</h4>
 <div class="media-object">
 <div class="media-object-section">
-<img class="thumbnail lazy" data-original="./img/contb.png">
+<img class="thumbnail lazy" data-original="./img/contb.png" />
 </div>
 <div class="media-object-section">
 <h5>PS4 Controller</h5>
@@ -184,7 +180,7 @@
 </div>
 <div class="media-object">
 <div class="media-object-section">
-<img class="thumbnail lazy" data-original="./img/contw.png">
+<img class="thumbnail lazy" data-original="./img/contw.png" />
 </div>
 <div class="media-object-section">
 <h5>PS4 Controller/White</h5>
@@ -193,7 +189,7 @@
 </div>
 <div class="media-object">
 <div class="media-object-section">
-<img class="thumbnail lazy" data-original="./img/move.png">
+<img class="thumbnail lazy" data-original="./img/move.png" />
 </div>
 <div class="media-object-section">
 <h5>PS Move Controller</h5>
@@ -205,7 +201,7 @@
 <h4>Accessories</h4>
 <div class="media-object">
 <div class="media-object-section">
-<img class="thumbnail lazy" data-original="./img/headphones.png">
+<img class="thumbnail lazy" data-original="./img/headphones.png" />
 </div>
 <div class="media-object-section">
 <h5>Headphones</h5>
@@ -214,7 +210,7 @@
 </div>
 <div class="media-object">
 <div class="media-object-section">
-<img class="thumbnail lazy" data-original="./img/cable.png">
+<img class="thumbnail lazy" data-original="./img/cable.png" />
 </div>
 <div class="media-object-section">
 <h5>PS4 Cable</h5>
@@ -223,7 +219,7 @@
 </div>
 <div class="media-object">
 <div class="media-object-section">
-<img class="thumbnail lazy" data-original="./img/hdmi.png">
+<img class="thumbnail lazy" data-original="./img/hdmi.png" />
 </div>
 <div class="media-object-section">
 <h5>HDMI Cable</h5>
@@ -253,11 +249,11 @@
 </ul>
 </div>
 </div>
-</div> -->
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.1/foundation.min.js"></script> -->
-<script src="./js/bundle.min.js"></script>
-<script>$(document).foundation();$("img.lazy").lazyload({effect : "fadeIn"});</script>
-</body>
-</html>
+</div>
+
+</div>
+
+    );
+  }
+}
+
