@@ -72,19 +72,22 @@ export default class extends React.Component {
 <p>$59</p>
 <a href="#" class="button expanded">Buy</a>
 </div>
+<hr />
 </div>
 
-<hr />
+
 <div class="row column">
 <div class="callout primary">
 <h3>The Callout Primary section</h3>
 </div>
-</div>
 <hr />
+</div>
+
 <div class="row column text-center">
 <h2>Other Neat Games</h2>
 <hr />
 </div>
+
 <div class="row small-up-2 medium-up-3 large-up-6">
 <div class="column">
 <img class="thumbnail lazy" data-original="./img/chiv.png" />
@@ -122,8 +125,9 @@ export default class extends React.Component {
 <p>$59</p>
 <a href="#" class="button small expanded hollow">Buy</a>
 </div>
-</div>
 <hr />
+</div>
+
 <div class="row">
 <div class="medium-4 columns">
 <h4>Hardware</h4>
