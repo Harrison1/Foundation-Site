@@ -1,6 +1,6 @@
 import React from 'react';
 
-import 'script!jquery'
+import 'script!jquery';
 import Lazy from 'lazyload/jquery.lazyload';
 import Main from '../../public/js/main';
 
