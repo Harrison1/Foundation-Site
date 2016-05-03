@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Lazy from 'lazyload/jquery.lazyload.min';
-import Foundation from 'foundation-sites/dist/foundation.min';
-import Main from '../../public/js/main'
+import 'script!jquery'
+import Lazy from 'lazyload/jquery.lazyload';
+import Main from '../../public/js/main';
 
 export default class extends React.Component {
   render() {

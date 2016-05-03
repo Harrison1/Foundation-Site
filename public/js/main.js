@@ -1,3 +1,7 @@
+import 'script!jquery';
+import 'script!foundation-sites/dist/foundation';
+import 'script!slick-carousel/slick/slick';
+
 $(document).ready(function(){
 	$(document).foundation();
 	$("img.lazy").lazyload({effect : "fadeIn"});
