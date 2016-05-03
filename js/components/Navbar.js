@@ -1,15 +1,14 @@
 import React from 'react';
 
-import jQuery from 'jquery';
-import Lazy from 'lazyload/jquery.lazyload.min.js';
-import Foundation from 'foundation-sites/dist/foundation.min.js';
+import Lazy from 'lazyload/jquery.lazyload.min';
+import Foundation from 'foundation-sites/dist/foundation.min';
+import Main from '../../public/js/main'
 
 export default class extends React.Component {
   render() {
 
     return (
-
-<div>    	
+<div>
 
 <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
 <button class="menu-icon" type="button" data-toggle></button>
@@ -36,24 +35,11 @@ export default class extends React.Component {
 </div>
 </div>
 
- 
-<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-<ul class="orbit-container">
-<button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
-<button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
-<li class="orbit-slide is-active">
-<img src="./img/hot.jpg" />
-</li>
-<li class="orbit-slide">
-<img src="./img/laura.jpg" />
-</li>
-<li class="orbit-slide">
-<img src="./img/tran.jpg" />
-</li>
-<li class="orbit-slide">
-<img src="./img/arrow.png" />
-</li>
-</ul>
+<div class="slick">
+<div><img src="./img/tran.jpg" /></div>
+<div><img src="./img/laura.jpg" /></div>
+<div><img src="./img/arrow.png" /></div>
+<div><img src="./img/hot.jpg" /></div>
 </div>
 
 <div class="row column text-center">
@@ -68,7 +54,7 @@ export default class extends React.Component {
 <a href="#" class="button expanded">Buy</a>
 </div>
 <div class="column">
-<img class="thumbnail lazy" data-original="./img/metal.png" /> 
+<img class="thumbnail lazy" data-original="./img/metal.png" />
 <h5>Metal Gear Solid</h5>
 <p>$59</p>
 <a href="#" class="button expanded">Buy</a>

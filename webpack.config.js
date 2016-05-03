@@ -18,6 +18,7 @@ module.exports = {
       }
     ]
   },
+
   output: {
     path: __dirname + "/js/",
     filename: "bundle.min.js"
