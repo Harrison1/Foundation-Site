@@ -46,6 +46,7 @@ export default class extends React.Component {
 <h2>Our Newest Products</h2>
 <hr />
 </div>
+
 <div class="row small-up-2 large-up-4">
 <div class="column">
 <img class="thumbnail lazy" data-original="./img/uncharted.png" />
@@ -72,6 +73,7 @@ export default class extends React.Component {
 <a href="#" class="button expanded">Buy</a>
 </div>
 </div>
+
 <hr />
 <div class="row column">
 <div class="callout primary">
