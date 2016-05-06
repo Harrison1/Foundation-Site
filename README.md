@@ -1,4 +1,4 @@
-Work in Progress...
+Work in Progress...converting code into react components
 
 Game site based off Foundation's e-commerce template. This site will soon be converted to react.
 
