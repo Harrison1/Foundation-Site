@@ -28,6 +28,7 @@ export default class extends React.Component{
 					<p>$59</p>
 					<a href="#" class="button expanded">Buy</a>
 				</div>
+				<hr />
 			</div>
 		);
 	}
