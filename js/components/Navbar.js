@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Footer from './Footer';
+import Slider from './Slider';
 
 import 'script!jquery';
 import Lazy from 'lazyload/jquery.lazyload';
@@ -37,12 +38,7 @@ export default class extends React.Component {
 </div>
 </div>
 
-<div class="slick">
-<div><img src="./img/tran.jpg" /></div>
-<div><img src="./img/laura.jpg" /></div>
-<div><img src="./img/arrow.png" /></div>
-<div><img src="./img/hot.jpg" /></div>
-</div>
+<Slider />
 
 <div class="row column text-center">
 <h2>Our Newest Products</h2>
