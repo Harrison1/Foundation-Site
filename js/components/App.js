@@ -23,13 +23,13 @@ export default class extends React.Component {
 
 				<Slider />
 
-				<NewestProductsTitle />
+				<SectionTitle title="Our Newest Products"/>
 
 				<NewestProducts />
 
 				<CalloutSection />
 
-				<SectionTitle />
+				<SectionTitle title="Other Neat Games"/>
 
 				<OtherProducts />
 
