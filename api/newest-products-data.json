@@ -1,9 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-import App from './components/App';
-
-const data = [
+[
     {
         "id": 1,
         "img": "./img/uncharted.png",
@@ -28,7 +23,4 @@ const data = [
         "title": "A Realm Reborn",
         "Price": "$59"
     }
-];
-
-const app = document.getElementById('app');
-ReactDOM.render(<App data={data} />, app);
+]

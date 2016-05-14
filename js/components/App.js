@@ -3,7 +3,6 @@ import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import Slider from './Slider';
-import NewestProductsTitle from './NewestProductsTitle';
 import NewestProducts from './NewestProducts';
 import CalloutSection from './CalloutSection';
 import SectionTitle from './SectionTitle';
@@ -25,7 +24,7 @@ export default class extends React.Component {
 
 				<SectionTitle title="Our Newest Products"/>
 
-				<NewestProducts />
+				<NewestProducts data={this.props.data}/>
 
 				<CalloutSection />
 
