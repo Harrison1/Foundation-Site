@@ -6,7 +6,7 @@ export default class extends React.Component{
 				<div class="column">
 					<img class="thumbnail lazy" data-original={this.props.promoimg} />
 					<h5>{this.props.title}</h5>
-					<p>55</p>
+					<p>{this.props.price}</p>
 					<a href="#" class="button expanded">Buy</a>
 				</div>
 		);

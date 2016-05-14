@@ -5,7 +5,7 @@ export default class extends React.Component{
 	render() {
 		const featureNodes = this.props.data.map(function(data) {
       		return (
-        				<FeatureProduct title={data.title} key={data.id} promoimg={data.img}/>
+        				<FeatureProduct title={data.title} key={data.id} promoimg={data.img} price={data.price} />
       				);
     	});
 		return (

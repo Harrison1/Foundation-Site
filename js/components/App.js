@@ -28,7 +28,7 @@ export default class extends React.Component {
 
 				<CalloutSection />
 
-				<SectionTitle title="Other Neat Games"/>
+				<SectionTitle title="Hardware and Accessories"/>
 
 				<OtherProducts />
 
