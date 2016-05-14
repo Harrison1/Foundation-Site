@@ -5,6 +5,7 @@ import Footer from './Footer';
 import Slider from './Slider';
 import NewestProducts from './NewestProducts';
 import CalloutSection from './CalloutSection';
+import NeatGames from './NeatGames';
 import SectionTitle from './SectionTitle';
 import OtherProducts from './OtherProducts';
 
@@ -49,7 +50,9 @@ export default class extends React.Component {
 
 				<CalloutSection />
 
-				<SectionTitle title="Hardware and Accessories"/>
+				<SectionTitle title="Other Neat Games"/>
+
+				<NeatGames />
 
 				<OtherProducts />
 
