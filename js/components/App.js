@@ -13,6 +13,27 @@ import Lazy from 'lazyload/jquery.lazyload';
 import Main from '../../public/js/main';
 
 export default class extends React.Component {
+	constructor() {
+		super();
+    	this.state = {data: []};
+ 	 }
+  loadCommentsFromServer() {
+    $.ajax({
+      url: this.props.url,
+      dataType: 'json',
+      success: (data) => {
+        this.setState({data: data});
+      },
+      error: (xhr, status, err) => {
+        console.error(this.props.url, status, err.toString());
+      }
+    });
+  }
+
+  componentDidMount() {
+    this.loadCommentsFromServer();
+  }
+
   render() {
 
     return (
@@ -24,7 +45,7 @@ export default class extends React.Component {
 
 				<SectionTitle title="Our Newest Products"/>
 
-				<NewestProducts data={this.props.data}/>
+				<NewestProducts data={this.state.data}/>
 
 				<CalloutSection />
 
