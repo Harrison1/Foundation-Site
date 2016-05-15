@@ -1,0 +1,98 @@
+[
+    {
+        "id": 26,
+        "img": "./img/uncharted.png",
+        "title": "Uncharted 4",
+        "price": "$59"
+    },
+    {
+        "id": 27,
+        "img": "./img/metal.png",
+        "title": "Metal Gear Solid",
+        "price": "$59"
+    },
+    {
+        "id": 28,
+        "img": "./img/sky.png",
+        "title": "No Man's Sky",
+        "price": "$59"
+    },
+    {
+        "id": 29,
+        "img": "./img/realm.png",
+        "title": "A Realm Reborn",
+        "price": "$59"
+    },
+    {
+        "id": 30,
+        "img": "./img/uncharted.png",
+        "title": "Uncharted 4",
+        "price": "$59"
+    },
+    {
+        "id": 31,
+        "img": "./img/metal.png",
+        "title": "Metal Gear Solid",
+        "price": "$59"
+    },
+    {
+        "id": 32,
+        "img": "./img/sky.png",
+        "title": "No Man's Sky",
+        "price": "$59"
+    },
+    {
+        "id": 33,
+        "img": "./img/realm.png",
+        "title": "A Realm Reborn",
+        "price": "$59"
+    },
+    {
+        "id": 34,
+        "img": "./img/uncharted.png",
+        "title": "Uncharted 4",
+        "price": "$59"
+    },
+    {
+        "id": 35,
+        "img": "./img/metal.png",
+        "title": "Metal Gear Solid",
+        "price": "$59"
+    },
+    {
+        "id": 36,
+        "img": "./img/sky.png",
+        "title": "No Man's Sky",
+        "price": "$59"
+    },
+    {
+        "id": 37,
+        "img": "./img/realm.png",
+        "title": "A Realm Reborn",
+        "price": "$59"
+    },
+    {
+        "id": 38,
+        "img": "./img/uncharted.png",
+        "title": "Uncharted 4",
+        "price": "$59"
+    },
+    {
+        "id": 39,
+        "img": "./img/metal.png",
+        "title": "Metal Gear Solid",
+        "price": "$59"
+    },
+    {
+        "id": 40,
+        "img": "./img/sky.png",
+        "title": "No Man's Sky",
+        "price": "$59"
+    },
+    {
+        "id": 41,
+        "img": "./img/realm.png",
+        "title": "A Realm Reborn",
+        "price": "$59"
+    }
+]

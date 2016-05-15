@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 import 'script!jquery';
 import Lazy from 'lazyload/jquery.lazyload';
@@ -23,7 +24,7 @@ export default class extends React.Component {
 						</div>
 						<div class="top-bar-right">
 							<ul class="menu" data-responsive-menu="drilldown medium-dropdown">
-							<li><a href="#">Shop</a></li>
+							<li><Link to="/shop" activeStyle={{ color: 'red' }}>Shop</Link></li>
 							<li><a href="#">Talk</a></li>
 							<li><a href="#">Show</a></li>
 							<li><a href="#">Games</a></li>
