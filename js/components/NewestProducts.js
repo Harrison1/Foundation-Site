@@ -3,9 +3,9 @@ import FeatureProduct from './FeatureProduct';
 
 export default class extends React.Component{
 	render() {
-		const featureNodes = this.props.data.map(function(data) {
+		const featureNodes = this.props.data.map(function(feature) {
       		return (
-        				<FeatureProduct title={data.title} key={data.id} promoimg={data.img} price={data.price} />
+        				<FeatureProduct title={feature.title} key={feature.id} promoimg={feature.img} price={feature.price} />
       				);
     	});
 		return (

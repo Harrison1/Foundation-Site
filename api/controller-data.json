@@ -1,0 +1,20 @@
+[
+    {
+        "id": 14,
+        "img": "./img/contb.png",
+        "title": "PS4 Controller",
+        "description": "The classic PS4 controller"
+    },
+    {
+        "id": 15,
+        "img": "./img/contw.png",
+        "title": "PS4 Controller/White",
+        "description": "Change the color for the same great experience"
+    },
+    {
+        "id": 16,
+        "img": "./img/move.png",
+        "title": "PS Move Controller",
+        "description": "Prepare yourself for Playstation VR"
+    }
+]
