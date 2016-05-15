@@ -1,0 +1,38 @@
+[
+    {
+        "id": 5,
+        "img": "./img/chiv.png",
+        "title": "Chivalry",
+        "price": "$59"
+    },
+    {
+        "id": 6,
+        "img": "./img/dead.png",
+        "title": "Dead Island 2",
+        "price": "$59"
+    },
+    {
+        "id": 7,
+        "img": "./img/transformers.png",
+        "title": "Transformers",
+        "price": "$59"
+    },
+    {
+        "id": 8,
+        "img": "./img/dis.png",
+        "title": "Disgaea 5",
+        "price": "$59"
+    },
+    {
+        "id": 9,
+        "img": "./img/storm.png",
+        "title": "Naruto Storm 4",
+        "price": "$59"
+    },
+    {
+        "id": 10,
+        "img": "./img/touk.png",
+        "title": "Toukiden Kiwami",
+        "price": "$59"
+    }
+]

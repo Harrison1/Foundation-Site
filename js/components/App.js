@@ -16,14 +16,15 @@ import Main from '../../public/js/main';
 export default class extends React.Component {
 	constructor() {
 		super();
-    	this.state = {data: []};
+    	this.state = {feature: [], newest: [], hardware: [], controller: [], accessories: []};
  	 }
-  loadCommentsFromServer() {
+
+  loadFeaturesFromServer() {
     $.ajax({
       url: this.props.feature,
       dataType: 'json',
-      success: (data) => {
-        this.setState({data: data});
+      success: (feature) => {
+        this.setState({feature: feature});
       },
       error: (xhr, status, err) => {
         console.error(this.props.feature, status, err.toString());
@@ -31,8 +32,64 @@ export default class extends React.Component {
     });
   }
 
+    loadNewestFromServer() {
+    $.ajax({
+      url: this.props.newest,
+      dataType: 'json',
+      success: (newest) => {
+        this.setState({newest: newest});
+      },
+      error: (xhr, status, err) => {
+        console.error(this.props.newest, status, err.toString());
+      }
+    });
+  }
+
+      loadHardwareFromServer() {
+    $.ajax({
+      url: this.props.hardware,
+      dataType: 'json',
+      success: (hardware) => {
+        this.setState({hardware: hardware});
+      },
+      error: (xhr, status, err) => {
+        console.error(this.props.hardware, status, err.toString());
+      }
+    });
+  }
+
+        loadControllerFromServer() {
+    $.ajax({
+      url: this.props.controller,
+      dataType: 'json',
+      success: (controller) => {
+        this.setState({controller: controller});
+      },
+      error: (xhr, status, err) => {
+        console.error(this.props.controller, status, err.toString());
+      }
+    });
+  }
+
+          loadAccessoriesFromServer() {
+    $.ajax({
+      url: this.props.accessories,
+      dataType: 'json',
+      success: (accessories) => {
+        this.setState({accessories: accessories});
+      },
+      error: (xhr, status, err) => {
+        console.error(this.props.accessories, status, err.toString());
+      }
+    });
+  }
+
   componentDidMount() {
-    this.loadCommentsFromServer();
+    this.loadFeaturesFromServer();
+    this.loadNewestFromServer();
+    this.loadHardwareFromServer();
+    this.loadControllerFromServer();
+    this.loadAccessoriesFromServer();
   }
 
   render() {
@@ -44,17 +101,17 @@ export default class extends React.Component {
 
 				<Slider />
 
-				<SectionTitle title="Our Newest Products"/>
+				<SectionTitle title="Our Newest Products" />
 
-				<NewestProducts data={this.state.data}/>
+				<NewestProducts data={this.state.feature} />
 
 				<CalloutSection />
 
-				<SectionTitle title="Other Neat Games"/>
+				<SectionTitle title="Other Neat Games" />
 
-				<NeatGames />
+				<NeatGames data={this.state.newest} />
 
-				<OtherProducts />
+				<OtherProducts datahardware={this.state.hardware} datacontroller={this.state.controller} dataaccessories={this.state.accessories}/>
 
 				<Footer />
 
