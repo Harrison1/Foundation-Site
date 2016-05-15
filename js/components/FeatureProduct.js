@@ -1,10 +1,13 @@
 import React from 'react';
+import LazyLoad from 'react-lazyload';
 
 export default class extends React.Component{
 	render() {
 		return (
 				<div class="column">
-					<img class="thumbnail lazy" src={this.props.promoimg} />
+					<LazyLoad height={357} once>
+						<img class="productfade" src={this.props.promoimg} />
+					</LazyLoad>	
 					<h5>{this.props.title}</h5>
 					<p>{this.props.price}</p>
 					<a href="#" class="button expanded">Buy</a>
