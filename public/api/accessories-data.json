@@ -1,0 +1,20 @@
+[
+    {
+        "id": 17,
+        "img": "./img/headphones.png",
+        "title": "Headphones",
+        "description": "Hear what everyone is saying. Don't go at it alone"
+    },
+    {
+        "id": 18,
+        "img": "./img/cable.png",
+        "title": "PS4 Cable",
+        "description": "You lost it, we know, buy a replacement now"
+    },
+    {
+        "id": 19,
+        "img": "./img/hdmi.png",
+        "title": "HDMI Cable",
+        "description": "Another overpriced HDMI cable, we know, buy ours, we both know you need one"
+    }
+]

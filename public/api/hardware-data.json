@@ -1,0 +1,20 @@
+[
+    {
+        "id": 11,
+        "img": "./img/ps4b.png",
+        "title": "PS4",
+        "description": "Experience what everyone is talking about"
+    },
+    {
+        "id": 12,
+        "img": "./img/ps4w.png",
+        "title": "PS4/White",
+        "description": "Change the color for the same great experience"
+    },
+    {
+        "id": 13,
+        "img": "./img/psvr.png",
+        "title": "Playstation VR",
+        "description": "A whole new way to game"
+    }
+]

@@ -19,7 +19,7 @@ module.exports = {
     ]
   },
   output: {
-    path: __dirname + "/js/",
+    path: __dirname + "/public/",
     filename: "bundle.min.js"
   },
   plugins: debug ? [] : [
