@@ -4,7 +4,6 @@ import 'script!slick-carousel/slick/slick';
 
 $(document).ready(function(){
 	$(document).foundation();
-	$("img.lazy").lazyload({effect : "fadeIn"});
     $('.slick').slick({
       		slidesToShow: 1,
       		slidesToScroll: 1,
