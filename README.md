@@ -1,4 +1,4 @@
-Game site based off Foundation's e-commerce template. Built with foundation and react
+Game site based off Foundation's e-commerce template. Built using foundation and react
 
 images are lazy loaded in with jquery lazy load.
 
